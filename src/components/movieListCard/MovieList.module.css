@@ -1,0 +1,40 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18vw;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
+    color: #424242;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.details {
+    text-align: center;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.releaseDate {
+    font-size: 14px;
+    color: #B0BEC5;
+}

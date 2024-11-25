@@ -1,0 +1,35 @@
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #424242;
+    border-radius: 5px;
+}
+
+.search>input{
+    background-color: #424242;
+    color: #E0E0E0;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.searchBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.searchImg{
+    width: 20px;
+    height: 20px;
+}
+.results li a{
+    color: #B0BEC5;
+    text-decoration: none;
+}
+
+
+
+

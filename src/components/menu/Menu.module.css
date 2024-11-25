@@ -1,0 +1,13 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    top:5vh;
+    padding: 0 5vw;
+}
+.menu>span{
+    color: #fff;
+    font-size: 24px;
+}
