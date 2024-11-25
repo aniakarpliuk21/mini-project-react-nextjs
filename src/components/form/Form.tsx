@@ -34,7 +34,8 @@ const Form = () => {
                     searchResults.length > 0 ? (
                     <ul>
                         {searchResults.map((movie) => (
-                            <li><NavLinkComponent key={movie.id} path={'/movies/'+movie.id}>{movie.name}</NavLinkComponent></li>))}
+                            <li key={movie.id}><NavLinkComponent key={movie.id} path={'/movies/'+movie.id}>{movie.name}</NavLinkComponent></li>
+                        ))}
                     </ul>
                 ) : (
                     <p>No results found.</p>
